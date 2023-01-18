@@ -1,7 +1,7 @@
 {
   "name": "react-native-android-thumbnail",
-  "version": "0.1.0",
-  "description": "test",
+  "version": "1.0.0",
+  "description": "Turbo module for getting all images and Fabric component for showing visual image thumbnail",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
@@ -102,7 +102,7 @@
       "tagName": "v${version}"
     },
     "npm": {
-      "publish": true
+      "publish": false
     },
     "github": {
       "release": true
