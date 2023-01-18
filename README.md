@@ -8,8 +8,16 @@ A native android component, which loads a visual thumbnail for the given content
 npm install react-native-android-thumbnail
 ```
 
-## Usage
 
+## Updating manifests
+
+Open your project's AndroidManifest.xml and add the following lines inside the <manifest> tag:
+
+```xml
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+```
+
+## Usage
 
 ```js
 import { getPhotos, Thumbnail } from 'react-native-android-thumbnail';
