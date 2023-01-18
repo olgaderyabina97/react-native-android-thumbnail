@@ -17,6 +17,31 @@ Open your project's AndroidManifest.xml and add the following lines inside the <
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 ```
 
+## Requesting Permissions
+ 
+  ```js 
+   const requestReadExternalStoragePermission = async () => {
+    try {
+      const granted = await PermissionsAndroid.request(permission, {
+        title: 'Read External Storage Permission',
+        message:
+          'This App needs access to your media ' +
+          'so you can take awesome pictures.',
+        buttonNeutral: 'Ask Me Later',
+        buttonNegative: 'Cancel',
+        buttonPositive: 'OK',
+      });
+      if (granted === PermissionsAndroid.RESULTS.GRANTED) {
+        console.log('GRANTED!');
+      } else {
+        console.log('External Storage permission denied');
+      }
+    } catch (err) {
+      console.warn(err);
+    }
+  };
+  ```
+
 ## Usage
 
 ```js
