@@ -57,10 +57,8 @@ import { getPhotos, Thumbnail } from 'react-native-android-thumbnail';
 const allPhotos = await getPhotos();
 
 return (
-
-    <Thumbnail contentUri={allPhotos[0].contentUri} size={100} />
-
-);
+  <Thumbnail contentUri={allPhotos[0].contentUri} size={100} />
+ );
 ```
 
 ## Contributing
