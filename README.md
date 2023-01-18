@@ -20,6 +20,11 @@ Open your project's AndroidManifest.xml and add the following lines inside the <
 ## Requesting Permissions
  
   ```js 
+  import { PermissionsAndroid, Permission } from 'react-native';
+
+  // ...
+  const permission: Permission = PermissionsAndroid.PERMISSIONS
+    .READ_EXTERNAL_STORAGE as 'android.permission.READ_EXTERNAL_STORAGE';
    const requestReadExternalStoragePermission = async () => {
     try {
       const granted = await PermissionsAndroid.request(permission, {
