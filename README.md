@@ -1,6 +1,6 @@
 # react-native-android-thumbnail
 
-A native android component, which loads a visual thumbnail for the given contentUri, useful for showing many images from android devices. The package also provides a module for getting images' info, such as uri, albume name, size, image name and contentURI for loading thumbnail
+A native android component, which loads a visual thumbnail for the given contentUri, useful for showing many images from android devices. The package also provides a module for getting images' info, such as uri, album name, size, image name and contentURI for loading thumbnail
 
 ## Installation
 
