@@ -45,6 +45,8 @@ Open your project's AndroidManifest.xml and add the following lines inside the <
       console.warn(err);
     }
   };
+  
+  // ...
   ```
 
 ## Usage
@@ -59,6 +61,8 @@ const allPhotos = await getPhotos();
 return (
   <Thumbnail contentUri={allPhotos[0].contentUri} size={100} />
  );
+ 
+// ...
 ```
 
 ## Contributing
