@@ -1,5 +1,5 @@
 {
-  "name": "react-native-android-thumbnail",
+  "name": "@olgederyabina97/react-native-android-thumbnail",
   "version": "1.0.1",
   "description": "Turbo module for getting all images and Fabric component for showing visual image thumbnail",
   "main": "lib/commonjs/index",
@@ -41,7 +41,7 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/olgaderyabina97/react-native-android-thumbnail",
+  "repository": "https://github.com/olgaderyabina97/react-native-android-thumbnail.git",
   "author": "olgederyabina97 <derabinaolga074@gmail.com> (https://github.com/olgaderyabina97)",
   "license": "MIT",
   "bugs": {
