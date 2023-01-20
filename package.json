@@ -1,6 +1,6 @@
 {
-  "name": "@olgaderyabina97/react-native-android-thumbnail",
-  "version": "1.0.1",
+  "name": "react-native-android-thumbnail",
+  "version": "1.0.2",
   "description": "Turbo module for getting all images and Fabric component for showing visual image thumbnail",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
